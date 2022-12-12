@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #9fa2bb;
+}
+
+.kotak {
+    width: 880px;
+    margin: 35px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.kotak h2 {
+    color: rgb(119, 103, 211);
+    border-bottom: 1px solid gainsboro;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+
+
+/* halaman detail produk */
+
+.detail {
+    width: 520px;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    margin: 0 0 0 -100px;
+    border-radius: 10px;
+    background-color: rgb(184, 211, 85);
+}
+
+img {
+    align-content: center;
+    width:35%;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+h3.detail-produk {
+    padding-left: 20px;
+    text-align: center;
+}
